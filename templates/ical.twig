@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//GPTIMERS//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:{{ event.title.value }}
+UID:{{ event.id.value }}@gptimers.com
+STATUS:CONFIRMED
+DTSTART:{{ event.start_date.value|date("Ymd\\THis\\Z") }}
+DTEND:{{ event.end_date.value|date("Ymd\\THis\\Z") }}
+DTSTAMP:{{ now|date('Ymd\\THis\\Z') }}
+LOCATION:{{ address.name }} {{ address.street_address }} {{ address.city }} {{ address.state_province }} {{ address.postal_code }}
+DESCRIPTION:{{ event.summary.value }}
+END:VEVENT
+END:VCALENDAR

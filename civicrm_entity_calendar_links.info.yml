@@ -1,0 +1,7 @@
+name: 'civicrm_entity_calendar_links'
+type: module
+description: 'Provides calendar link view fields for CiviCRM Events'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - civicrm_entity:civicrm_entity

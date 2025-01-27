@@ -1,0 +1,11 @@
+{
+    "name": "nickperkins/civicrm_entity_calendar_links",
+    "type": "drupal-module",
+    "description": "Provides calendar link view fields for CiviCRM Events",
+    "keywords": [
+        "Drupal"
+    ],
+    "require": {
+        "spatie/calendar-links": "^1.11"
+    }
+}

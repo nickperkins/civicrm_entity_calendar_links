@@ -1,0 +1,8 @@
+civicrm_entity_calendar_links.event.ical:
+  path: '/civicrm-event/{civicrm_event}/ical'
+  defaults:
+    _entity_view: 'civicrm_event.ical'
+    _controller: '\Drupal\civicrm_entity_calendar_links\Controller\CivicrmEntityEventICalController'
+    _title: 'iCal'
+  requirements:
+    _permission: 'view event info'

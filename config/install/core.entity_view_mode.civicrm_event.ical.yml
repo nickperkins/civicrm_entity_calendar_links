@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - civicrm_entity
+    - civicrm_entity_calendar_links
+id: civicrm_event.ical
+label: ical
+description: 'An ical file for an event'
+targetEntityType: civicrm_event
+cache: true

@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for civicrm_entity_calendar_links module.
+ */
+
+function civicrm_entity_calendar_links_views_data() {
+  $data['civicrm_event']['civicrm_entity_event_google_calendar_link'] = [
+    'title' => t('CiviCRM Event Google Calendar Link Views Field'),
+    'help' => t('Displays a link to add event to Google Calendar.'),
+    'field' => [
+      'id' => 'civicrm_entity_event_google_calendar_link',
+    ],
+  ];
+  $data['civicrm_event']['civilrm_entity_event_outlook_calendar_link'] = [
+    'title' => t('CiviCRM Event Outlook.com Calendar Link Views Field'),
+    'help' => t('Displays a link to add event to Outlook.com Calendar.'),
+    'field' => [
+      'id' => 'civilrm_entity_event_outlook_calendar_link',
+    ],
+  ];
+  $data['civicrm_event']['civicrm_entity_event_office_calendar_link'] = [
+    'title' => t('CiviCRM Event M365 (Office) Calendar Link Views Field'),
+    'help' => t('Displays a link to add event to Microsoft 365 (Office) Calendar.'),
+    'field' => [
+      'id' => 'civicrm_entity_event_office_calendar_link',
+    ],
+  ];
+    $data['civicrm_event']['civicrm_entity_event_ical_calendar_link'] = [
+      'title' => t('CiviCRM Event iCal Link Views Field'),
+      'help' => t('Displays a link to add event to iCal Calendar.'),
+      'field' => [
+        'id' => 'civicrm_entity_event_ical_calendar_link',
+      ],
+  ];
+
+  return $data;
+}

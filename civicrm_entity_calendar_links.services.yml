@@ -1,0 +1,4 @@
+services:
+  civicrm_entity_calendar_links.eventlink:
+    class: Drupal\civicrm_entity_calendar_links\CivicrmEntityEventLink
+    arguments: ['@civicrm_entity.api']
