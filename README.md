@@ -28,9 +28,7 @@ This module provides calendar link view fields for CiviCRM entities.
 
 ## Maintainers
 
-## Maintainers
-
-- [Nick Perkns](https://github.com/nickperkins)
+- [Nick Perkins](https://github.com/nickperkins)
 
 ## Contributing
 
